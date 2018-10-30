@@ -23,20 +23,20 @@
 						<div class="form-group">
 								<label for="inputEmail3" class="col-sm-2 control-label">Phone Number</label>  
 							<div class="col-sm-5">
-								<input type="text" class="form-control" id="inputEmail3" placeholder="Phone Number" name="mobile_number" required>
+								<input type="text" class="form-control" id="phone_number" placeholder="Phone Number" name="mobile_number" required>
 							</div>
 						</div>   
 
 						<div class="form-group">
 								<label for="inputEmail3" class="col-sm-2 control-label">From Date</label>  
 							<div class="col-sm-5">
-								<input type="text" class="form-control" id="dt1" placeholder="From Date" name="from_date">
+								<input type="text" class="form-control" id="dt1" placeholder="From Date" name="from_date" required>
 							</div>
 						</div> 
 						<div class="form-group">
 								<label for="inputEmail3" class="col-sm-2 control-label">Expiry Date</label>  
 							<div class="col-sm-5">
-								<input type="text" class="form-control" id="dt2" placeholder="To Date" name="to_date">
+								<input type="text" class="form-control" id="dt2" placeholder="To Date" name="to_date" required>
 							</div>
 						</div> 
 					</div>
