@@ -68,7 +68,7 @@
             </a>
             <ul class="treeview-menu" style="display: none;">
               <li><a href="add_new_key.php"><i class="fa fa-circle-o text-yellow"></i> <span>Create New Activation Key</span></a></li>
-              <li><a href="#"><i class="fa fa-circle-o text-purple"></i> <span>View Key List</span></a></li>
+              <li><a href="view_acitivation_report.php"><i class="fa fa-circle-o text-purple"></i> <span>View Key List</span></a></li>
 
             </ul>
           </li>
