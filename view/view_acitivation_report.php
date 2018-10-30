@@ -29,7 +29,7 @@ $plugin_list = $wpdb->get_results("SELECT * FROM activation_key",ARRAY_A);
 			                  <?php 
 
 			                  foreach ($plugin_list as $key => $value) {
-			                  	$timeDiff = (strtotime($value['to_date'])-strtotime($value['from_date']));
+			                  	$timeDiff = (strtotime($value['to_date'])-strtotime(date('d-m-Y')));
 								$numberDays = $timeDiff/86400;  // 86400 seconds in one day
 
 			                   ?>
