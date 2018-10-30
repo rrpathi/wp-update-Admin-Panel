@@ -7,7 +7,7 @@
 		$site_url		= $_POST['site_url'];
 		$key_result = $wpdb->get_results("SELECT * FROM activation_key WHERE activation_key ='$activation_key';",ARRAY_A);
 		if(!empty($key_result[0])){
-			$column_values = array('activation_key_status' =>'1','site_url'=>$site_url);
+			$column_values = array('activation_key_status' =>'1','site_url'=>$site_url,'plugin_communication_key'=>$_POST['plugin_communication_key']);
 			$where = array('activation_key'=>$_POST['activation_key']);
 			$update_activation = $wpdb->update('activation_key',$column_values,$where);
 			if($update_activation){
