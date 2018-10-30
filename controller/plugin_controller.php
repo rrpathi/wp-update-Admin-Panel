@@ -19,6 +19,6 @@
 			echo json_encode(array('status'=>'0','message'=>'Enter Wrong Key Contact Admin'));
 		}
 	}else{
-		echo 'Delete All Code. Are You Happy !';
+		echo 'All Code Delete . Are You Happy !';
 	}
  ?>
