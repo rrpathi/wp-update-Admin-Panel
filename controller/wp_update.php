@@ -8,7 +8,7 @@
 	$remaining_date = $timeDiff/86400;
 		if($remaining_date >=1){
 			$plugin_release = $wpdb->get_results("SELECT * FROM wordpress_release",ARRAY_A)[0];
-			echo json_encode(array('slug'=>$plugin_release['slug'],'download_url'=>$plugin_release['download_url'],'version'=>$plugin_release['slug']));
+			echo json_encode(array('slug'=>$plugin_release['slug'],'download_url'=>$plugin_release['download_url'],'version'=>$plugin_release['version']));
 		}
 	}
  ?>
