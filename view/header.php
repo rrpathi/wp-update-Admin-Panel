@@ -72,7 +72,7 @@
 
             </ul>
           </li>
-          <!-- <li><a href="#"><i class="fa fa-circle-o text-green"></i> <span>Master 1</span></a></li> -->
+          <li><a href="plugin_new_release.php"><i class="fa fa-circle-o text-green"></i> <span>New Release</span></a></li>
       </section>
   </aside>
   <!-- Content -->

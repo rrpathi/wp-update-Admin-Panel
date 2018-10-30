@@ -7,7 +7,8 @@
 	$timeDiff = strtotime($date_validation[0]['to_date'])-(strtotime(date('d-m-Y')));
 	$remaining_date = $timeDiff/86400;
 		if($remaining_date >=1){
-			echo json_encode(array('slug'=>'wp-form','download_url'=>'http://localhost/wp-form.zip','version'=>'3.0'));
+			$plugin_release = $wpdb->get_results("SELECT * FROM wordpress_release",ARRAY_A)[0];
+			echo json_encode(array('slug'=>$plugin_release['slug'],'download_url'=>$plugin_release['download_url'],'version'=>$plugin_release['slug']));
 		}
 	}
  ?>
