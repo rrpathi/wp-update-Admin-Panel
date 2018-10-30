@@ -34,7 +34,7 @@
 							</div>
 						</div> 
 						<div class="form-group">
-								<label for="inputEmail3" class="col-sm-2 control-label">To Date</label>  
+								<label for="inputEmail3" class="col-sm-2 control-label">Expiry Date</label>  
 							<div class="col-sm-5">
 								<input type="text" class="form-control" id="dt2" placeholder="To Date" name="to_date">
 							</div>

@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="../css/_all-skins.min.css">
   <link rel="stylesheet" href="../css/jquery-ui.css">
 
-  <link rel="stylesheet" href="../js/datatable/dataTables.bootstrap.min.css">
-  <link rel="stylesheet" href="../js/datatable/responsive.bootstrap.min.css">
+<!--   <link rel="stylesheet" href="../js/datatable/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../js/datatable/responsive.bootstrap.min.css"> -->
  <script src="../js/jquery.min.js" ></script>
 </head>
 <body class="hold-transition sidebar-mini skin-black-light">
